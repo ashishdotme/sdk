@@ -4,7 +4,6 @@
   "author": "Ashish Patel",
   "homepage": "https://ashish.me",
   "license": "MIT",
-  "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "clean": "rm -rf dist",
