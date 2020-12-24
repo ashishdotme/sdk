@@ -12,3 +12,5 @@ coverage.lcov
 .DS_Store
 /.env
 __pycache__
+yarn.lock
+package-lock.json
