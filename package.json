@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "author": "Ashish Patel",
   "homepage": "https://ashish.me",
-  "private": true,
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
