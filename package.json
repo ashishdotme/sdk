@@ -8,7 +8,9 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf dist/ && tsc"
+    "clean": "rm -rf dist",
+    "copy": "cp README.md package.json dist",
+    "build": "npm run clean && tsc && npm run copy"
   },
   "dependencies": {
     "class-transformer": "^0.3.1",
