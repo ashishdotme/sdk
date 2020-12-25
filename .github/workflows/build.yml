@@ -20,7 +20,6 @@ jobs:
     - run: git config --global user.email "ashishsushilpatel@gmail.com"
     - run: npm version ${{ github.event.release.tag_name }}
     - run: npm run publish --tag ${{ github.event.release.target_commitish }}
-    - run: npm publish --access public
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     - run: git push
